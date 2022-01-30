@@ -69,7 +69,10 @@ public enum Spells
 	SMOKE_BARRAGE("Smoke Barrage", WidgetInfo.SPELL_SMOKE_BARRAGE),
 	SMOKE_BLITZ("Smoke Blitz", WidgetInfo.SPELL_SMOKE_BLITZ),
 	SMOKE_BURST("Smoke Burst", WidgetInfo.SPELL_SMOKE_BURST),
-	SMOKE_RUSH("Smoke Rush", WidgetInfo.SPELL_SMOKE_RUSH);
+	SMOKE_RUSH("Smoke Rush", WidgetInfo.SPELL_SMOKE_RUSH),
+
+	// Utility
+	TELEKINETIC_GRAB("Telekinetic Grab", WidgetInfo.Telekinetic_Grab);
 
 	private String name;
 	private WidgetInfo spell;
